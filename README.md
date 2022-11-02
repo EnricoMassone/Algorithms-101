@@ -9,6 +9,7 @@ The available algorithms and data structures are divided by topic.
 ### Search
 
 - [Linear Search](./src/search/linearSearch.ts)
+- [Binary Search](./src/search/binarySearch.ts)
 
 ## Credits
 
