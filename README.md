@@ -4,7 +4,7 @@ I created this project as a learning tool for myself. The main point of this pro
 
 ## Project structure
 
-The available algorithms are divided by topic.
+The available algorithms and data structures are divided by topic.
 
 ### Search
 
@@ -19,7 +19,7 @@ This project is inspired by the material of the following algorithms courses:
 
 ## Environment
 
-This project has been designed to be executed on a machine having NodeJS 18 installed. I have tested it with Windows 10 and WSL2.
+This project has been designed to be executed on a machine having Node.js 18 installed. I have tested it with Windows 10 and WSL2.
 
 ## Contribution
 
