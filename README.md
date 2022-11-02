@@ -1,6 +1,6 @@
 # Algorithms-101
 
-I created this project as a learning tool for myself. The main point of this project is offering myself a code machine to implement some well-known and fundamentals algorithm of the computer science. I will keep this project open source and available for anyone interested in the same subject.
+I created this project as a learning tool for myself. The main point of this project is offering myself a code machine to implement some well-known and fundamentals algorithms and data structures. I will keep this project open source and available for everyone.
 
 ## Project structure
 
