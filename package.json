@@ -4,7 +4,8 @@
   "description": "A collection of well known algorithms. The absolute minimum you need to know in the algorithms and data structure subject if you are a software developer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/EnricoMassone/Algorithms-101/issues"
   },
-  "homepage": "https://github.com/EnricoMassone/Algorithms-101#readme"
+  "homepage": "https://github.com/EnricoMassone/Algorithms-101#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
 }
