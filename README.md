@@ -1,2 +1,26 @@
 # Algorithms-101
-A collection of well known algorithms. The absolute minimum you need to know in the algorithms and data structure subject if you are a software developer.
+
+I created this project as a learning tool for myself. The main point of this project is offering myself a code machine to implement some well-known and fundamentals algorithm of the computer science. I will keep this project open source and available for anyone interested in the same subject.
+
+## Project structure
+
+The available algorithms are divided by topic.
+
+### Search
+
+- [Linear Search](./src/search/linearSearch.ts)
+
+## Credits
+
+This project is inspired by the material of the following algorithms courses:
+
+- [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/). This course is available on [FrontendMasters](https://frontendmasters.com/courses/algorithms/). Course material is available [here](https://theprimeagen.github.io/fem-algos/).
+- [Complete Intro to Computer Science](https://frontendmasters.com/courses/computer-science-v2/). This course is available on [FrontendMasters](https://frontendmasters.com/courses/computer-science-v2/). Course material is available [here](https://btholt.github.io/complete-intro-to-computer-science/)
+
+## Environment
+
+This project has been designed to be executed on a machine having NodeJS 18 installed. I have tested it with Windows 10 and WSL2.
+
+## Contribution
+
+If you find any issue with the code or any typo in the readme feel free to open a pull request or to file an issue.
