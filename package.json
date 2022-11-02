@@ -1,0 +1,20 @@
+{
+  "name": "algorithms-101",
+  "version": "1.0.0",
+  "description": "A collection of well known algorithms. The absolute minimum you need to know in the algorithms and data structure subject if you are a software developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnricoMassone/Algorithms-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnricoMassone/Algorithms-101/issues"
+  },
+  "homepage": "https://github.com/EnricoMassone/Algorithms-101#readme"
+}
