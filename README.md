@@ -12,6 +12,10 @@ The available algorithms and data structures are divided by topic.
 - [Binary Search](./src/search/binarySearch.ts)
 - [Two crystal balls problem](./src/search/twoCrystalBalls.ts)
 
+### Sorting
+
+- [Bubble sort](./src/sort/bubbleSort.ts)
+
 ## Credits
 
 This project is inspired by the material of the following algorithms courses:
