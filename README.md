@@ -16,6 +16,10 @@ The available algorithms and data structures are divided by topic.
 
 - [Bubble sort](./src/sort/bubbleSort.ts)
 
+### Data structures
+
+- [Queue](./src/data-structures/queue.ts)
+
 ## Credits
 
 This project is inspired by the material of the following algorithms courses:
