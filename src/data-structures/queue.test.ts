@@ -1,6 +1,6 @@
 import Queue from "./queue";
 
-test("Queue", function () {
+test("Queue", () => {
   const list = new Queue<number>();
 
   list.enqueue(5);

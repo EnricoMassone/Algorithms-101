@@ -19,6 +19,7 @@ The available algorithms and data structures are divided by topic.
 ### Data structures
 
 - [Queue](./src/data-structures/queue.ts)
+- [Stack](./src/data-structures/stack.ts)
 
 ## Credits
 
