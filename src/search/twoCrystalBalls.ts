@@ -5,7 +5,7 @@
  * @param { boolean[] } breaks - The array of boolean values used as the input. From a certain index on all the array items are True or all the array items are False.
  * @returns { number } The first array index which contains the True value or -1 if all array items equal False.
  */
-export function twoCrystalBalls(breaks: boolean[]): number {
+function twoCrystalBalls(breaks: boolean[]): number {
   // compute the jump amount by using the square root of the array lenght
   const jumpAmount = Math.floor(Math.sqrt(breaks.length));
 
@@ -34,3 +34,5 @@ export function twoCrystalBalls(breaks: boolean[]): number {
 
   return -1;
 }
+
+export default twoCrystalBalls;

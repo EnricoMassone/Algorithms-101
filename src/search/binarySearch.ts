@@ -4,7 +4,7 @@
  * @param { number } needle - The number to be searched
  * @returns { boolean } A flag which indicates whether or not the needle has been found
  */
-export function binarySearch(haystack: number[], needle: number): boolean {
+function search(haystack: number[], needle: number): boolean {
   // lower is incluse and high is exclusive
   let lower = 0;
   let high = haystack.length;
@@ -27,3 +27,5 @@ export function binarySearch(haystack: number[], needle: number): boolean {
 
   return false;
 }
+
+export default search;

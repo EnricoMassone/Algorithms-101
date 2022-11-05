@@ -1,4 +1,4 @@
-import { twoCrystalBalls } from "./twoCrystalBalls";
+import twoCrystalBalls from "./twoCrystalBalls";
 
 test("Two crystal balls", () => {
   const firstBreakIndex = Math.floor(Math.random() * 10000);

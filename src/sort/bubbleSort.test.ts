@@ -1,4 +1,4 @@
-import { bubbleSort } from "./bubbleSort";
+import bubbleSort from "./bubbleSort";
 
 describe("Bubble sort", () => {
   test("Sorts empty array with no errors", () => {

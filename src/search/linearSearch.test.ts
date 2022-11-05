@@ -1,4 +1,4 @@
-import { linearSearch } from "./linearSearch";
+import linearSearch from "./linearSearch";
 
 test("Linear search", () => {
   const haystack = [1, 3, 4, 69, 71, 81, 90, 99, 420, 1337, 69420];

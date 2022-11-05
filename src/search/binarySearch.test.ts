@@ -1,4 +1,4 @@
-import { binarySearch } from "./binarySearch";
+import binarySearch from "./binarySearch";
 
 test("Binary search", () => {
   const haystack = [1, 3, 4, 69, 71, 81, 90, 99, 420, 1337, 69420];
