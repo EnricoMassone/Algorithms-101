@@ -21,6 +21,10 @@ The available algorithms and data structures are divided by topic.
 - [Queue](./src/data-structures/queue.ts)
 - [Stack](./src/data-structures/stack.ts)
 
+### Recursion
+
+- [Maze Solver](./src/recursion/mazeSolver.ts)
+
 ## Credits
 
 This project is inspired by the material of the following algorithms courses:
