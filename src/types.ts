@@ -34,3 +34,18 @@ export interface DoublyLinkedListNode<T> {
    */
   previous?: DoublyLinkedListNode<T>;
 }
+
+/**
+ * Represents a point in a two-dimensional coordinate system
+ */
+export interface Point {
+  /**
+   * The x coordinate value
+   */
+  x: number;
+
+  /**
+   * The y coordinate value
+   */
+  y: number;
+}
