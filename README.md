@@ -15,6 +15,7 @@ The available algorithms and data structures are divided by topic.
 ### Sorting
 
 - [Bubble sort](./src/sort/bubbleSort.ts)
+- [Quick sort](./src/sort/quickSort.ts)
 
 ### Data structures
 
