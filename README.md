@@ -27,6 +27,10 @@ The available algorithms and data structures are divided by topic.
 
 - [Maze Solver](./src/recursion/mazeSolver.ts)
 
+### Trees
+
+- [Binary Tree Preorder Traversal](./src/trees/binaryTreePreorderTraversal.ts)
+
 ## Credits
 
 This project is inspired by the material of the following algorithms courses:

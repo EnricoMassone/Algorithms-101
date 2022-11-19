@@ -49,3 +49,23 @@ export interface Point {
    */
   y: number;
 }
+
+/**
+ * The node for a binary tree
+ */
+export interface BinaryTreeNode<T> {
+  /**
+   * The node value
+   */
+  value: T;
+
+  /**
+   * The left child of the node
+   */
+  left: BinaryTreeNode<T> | null;
+
+  /**
+   * The right child of the node
+   */
+  right: BinaryTreeNode<T> | null;
+}
