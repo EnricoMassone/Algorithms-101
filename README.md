@@ -21,6 +21,7 @@ The available algorithms and data structures are divided by topic.
 
 - [Queue](./src/data-structures/queue.ts)
 - [Stack](./src/data-structures/stack.ts)
+- [Doubly Linked List](./src/data-structures/doublyLinkedList.ts)
 
 ### Recursion
 
