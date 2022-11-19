@@ -29,7 +29,8 @@ The available algorithms and data structures are divided by topic.
 
 ### Trees
 
-- [Binary Tree Preorder Traversal](./src/trees/binaryTreePreorderTraversal.ts)
+- [Binary Tree Pre Order Traversal](./src/trees/binaryTreePreorderTraversal.ts)
+- [Binary Tree In Order Traversal](./src/trees/binaryTreeInOrderTraversal.ts)
 
 ## Credits
 
