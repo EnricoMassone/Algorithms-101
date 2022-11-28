@@ -34,6 +34,7 @@ The available algorithms and data structures are divided by topic.
 - [Binary Tree Post Order Traversal](./src/trees/binaryTreePostOrderTraversal.ts)
 - [Binary Tree Breath First Traversal](./src/trees/binaryTreeBreathFirstTraversal.ts)
 - [Binary Tree Beath First Search](./src/trees/binaryTreeBreathFirstSearch.ts)
+- [Depth First Search on a Binary Search Tree](./src/trees/depthFirstSearchOnBinarySearchTree.ts)
 
 ## Credits
 
