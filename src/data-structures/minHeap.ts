@@ -65,7 +65,7 @@ class MinHeap {
     this._data[0] = lastItemValue;
     // decrement the length of the heap
     this._length--;
-    // heapify down starting from the root node (until a base case is met)
+    // heapify down the value inserted at the root of the heap, until the right position in the heap is reached
     this.heapifyDown(0);
 
     return deletedValue;
@@ -118,7 +118,7 @@ class MinHeap {
 
     const rightChildIndex = MinHeap.getRightChildIndex(index);
     if (rightChildIndex <= this._length - 1) {
-      // I'm sure the right child is inside the boundaries of the heap
+      // in this case the right child is inside the boundaries of the heap
       const rightChildValue = this._data[rightChildIndex];
       children.push({ index: rightChildIndex, value: rightChildValue });
     }
