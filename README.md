@@ -51,8 +51,12 @@ This project is inspired by the material of the following algorithms courses:
 
 ## Environment
 
-This project has been designed to be executed on a machine having Node.js 18 installed. I have tested it with Windows 10 and WSL2.
+This project has been designed to be executed on a machine having Node.js 20 installed. I have tested it with Windows 10 and WSL2.
 
 ## Contribution
 
 If you find any issue with the code or any typo in the readme feel free to open a pull request or to file an issue.
+
+## Known Issues
+
+The execution of the npm script named _test_ sometimes leads to errors, due to a problem with the Jest cache and the _ts-jest_ package. As a workaround, you can use the _test-no-cache_ npm script instead.
