@@ -12,7 +12,7 @@ const NO_PREVIOUS_VERTEX = -1;
 export function search(
   graph: WeightedAdjacencyMatrix,
   source: number,
-  needle: number
+  needle: number,
 ): number[] {
   ensureValidVertex(source, graph);
   ensureValidVertex(needle, graph);
@@ -25,7 +25,7 @@ export function search(
 
   const seen: boolean[] = new Array<boolean>(numberOfVertices).fill(false);
   const previous: number[] = new Array<number>(numberOfVertices).fill(
-    NO_PREVIOUS_VERTEX
+    NO_PREVIOUS_VERTEX,
   );
 
   const queue: number[] = [source];
@@ -87,7 +87,7 @@ export function search(
 
 function ensureValidVertex(
   vertex: number,
-  graph: WeightedAdjacencyMatrix
+  graph: WeightedAdjacencyMatrix,
 ): void {
   const numberOfVertices = graph.length;
 
@@ -95,7 +95,7 @@ function ensureValidVertex(
     throw new RangeError(
       `The value ${vertex} is invalid for a vertex in the provided graph. Allowed vertex values are from 0 to ${
         numberOfVertices - 1
-      }`
+      }`,
     );
   }
 }

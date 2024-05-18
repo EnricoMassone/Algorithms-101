@@ -68,7 +68,7 @@ class DoublyLinkedList<T> {
   public insertAt(item: T, index: number): void {
     if (index < 0 || index > this._length) {
       throw new RangeError(
-        `The provided index (${index}) is outside of the list boundaries. Cannot insert at this index.`
+        `The provided index (${index}) is outside of the list boundaries. Cannot insert at this index.`,
       );
     }
 
@@ -92,7 +92,7 @@ class DoublyLinkedList<T> {
     if (!currentNode) {
       // We have already checked for edge cases, so if we get here it means we messed up our list
       throw new Error(
-        `There is no node at index ${index}. We expect a node to be there. The list internal structure is broken.`
+        `There is no node at index ${index}. We expect a node to be there. The list internal structure is broken.`,
       );
     }
 

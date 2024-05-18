@@ -2,7 +2,7 @@ import { BinaryTreeNode } from "../types";
 
 function areEqual<T>(
   a: BinaryTreeNode<T> | null,
-  b: BinaryTreeNode<T> | null
+  b: BinaryTreeNode<T> | null,
 ): boolean {
   /*
    * There are a few base cases here:
@@ -44,7 +44,7 @@ function areEqual<T>(
  */
 function compare<T>(
   treeRoot: BinaryTreeNode<T>,
-  otherTreeRoot: BinaryTreeNode<T>
+  otherTreeRoot: BinaryTreeNode<T>,
 ): boolean {
   return areEqual(treeRoot, otherTreeRoot);
 }

@@ -3,7 +3,7 @@ import { swap } from "../helpers";
 function partition(
   items: number[],
   lowIndex: number,
-  highIndex: number
+  highIndex: number,
 ): number {
   // both lowIndex and highIndex are inclusive
   const pivot = items[highIndex];
@@ -29,7 +29,7 @@ function partition(
 function sortSubArray(
   items: number[],
   lowIndex: number,
-  highIndex: number
+  highIndex: number,
 ): void {
   // base case is sorting an empty array or an array of length 1
   if (lowIndex >= highIndex) {

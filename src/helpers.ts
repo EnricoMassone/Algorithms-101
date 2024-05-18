@@ -9,13 +9,13 @@
 export function swap<T>(items: T[], i: number, j: number): void {
   if (!isIndexInArrayBoundaries(i, items)) {
     throw new RangeError(
-      "Index i is outside the boundaries of the provided array"
+      "Index i is outside the boundaries of the provided array",
     );
   }
 
   if (!isIndexInArrayBoundaries(j, items)) {
     throw new RangeError(
-      "Index j is outside the boundaries of the provided array"
+      "Index j is outside the boundaries of the provided array",
     );
   }
 

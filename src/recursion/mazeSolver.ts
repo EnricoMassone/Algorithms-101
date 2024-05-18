@@ -24,7 +24,7 @@ function walk(
   current: Point,
   end: Point,
   seen: boolean[][],
-  path: Point[]
+  path: Point[],
 ): boolean {
   /*
   Base cases are:
@@ -94,7 +94,7 @@ function solve(
   maze: string[],
   wall: string,
   start: Point,
-  end: Point
+  end: Point,
 ): Point[] {
   const seen: boolean[][] = [];
 
