@@ -38,6 +38,10 @@ The available algorithms and data structures are divided by topic.
 - [Depth First Search on a Binary Search Tree](./src/trees/depthFirstSearchOnBinarySearchTree.ts)
 - [Binary Tree Equality Check](./src/trees/binaryTreeComparison.ts)
 
+### Graphs
+
+- [Breath First Search on a graph](./src/graphs/graphBreathFirstSearch.ts)
+
 ## Credits
 
 This project is inspired by the material of the following algorithms courses:

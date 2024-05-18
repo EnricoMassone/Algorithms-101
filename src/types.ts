@@ -69,3 +69,13 @@ export interface BinaryTreeNode<T> {
    */
   right: BinaryTreeNode<T> | null;
 }
+
+/**
+ * This type represents a graph by using a weighted adjacency matrix.
+ * The matrix is a square, whose number of rows and columns is equal to the number of vertices in the graph.
+ * If the graph has n vertices (with n >= 1), then the vertices will be named 0, 1, 2, ..., n-1.
+ * The matrix entry positioned at row i and column j is a non-negative integer number.
+ * Its value is 0 if there is NO edge between vertex i and vertex j. Its value is greater than zero if there is an edge between vertex i and vertex j: in that case the entry value is the edge weight.
+ * The assumption here is that for each edge the weight is a positive integer number (so 0 can be used to signal that there is no edge).
+ */
+export type WeightedAdjacencyMatrix = number[][];
