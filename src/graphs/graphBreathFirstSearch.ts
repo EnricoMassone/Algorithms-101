@@ -84,18 +84,3 @@ export function search(
 
   return path.reverse();
 }
-
-function ensureValidVertex(
-  vertex: number,
-  graph: WeightedAdjacencyMatrix,
-): void {
-  const numberOfVertices = graph.length;
-
-  if (vertex < 0 || vertex >= numberOfVertices) {
-    throw new RangeError(
-      `The value ${vertex} is invalid for a vertex in the provided graph. Allowed vertex values are from 0 to ${
-        numberOfVertices - 1
-      }`,
-    );
-  }
-}

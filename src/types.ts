@@ -70,6 +70,12 @@ export interface BinaryTreeNode<T> {
   right: BinaryTreeNode<T> | null;
 }
 
+interface Graph {
+  getNumberOfVertices(): number;
+}
+
+class _WeightedAdjacencyMatrix implements Graph {}
+
 /**
  * This type represents a graph by using a weighted adjacency matrix.
  * The matrix is a square, whose number of rows and columns is equal to the number of vertices in the graph.

@@ -27,3 +27,18 @@ export function swap<T>(items: T[], i: number, j: number): void {
 function isIndexInArrayBoundaries<T>(index: number, items: T[]): boolean {
   return index >= 0 && index < items.length;
 }
+
+export function ensureValidVertex(
+  vertex: number,
+  graph: WeightedAdjacencyMatrix,
+): void {
+  const numberOfVertices = graph.length;
+
+  if (vertex < 0 || vertex >= numberOfVertices) {
+    throw new RangeError(
+      `The value ${vertex} is invalid for a vertex in the provided graph. Allowed vertex values are from 0 to ${
+        numberOfVertices - 1
+      }`,
+    );
+  }
+}
