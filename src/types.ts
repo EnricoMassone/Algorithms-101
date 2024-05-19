@@ -79,3 +79,24 @@ export interface BinaryTreeNode<T> {
  * The assumption here is that for each edge the weight is a positive integer number (so 0 can be used to signal that there is no edge).
  */
 export type WeightedAdjacencyMatrix = number[][];
+
+/**
+ * Represents an edge in a graph.
+ * The to field is the vertex the edge is connected to.
+ * The weight field is the weight of the edge.
+ * If a given graph has n vertices (n >= 1) they are indicated with the integer numbers 0, 1, 2, ..., n-1.
+ * The weight of an edge is always a positive integer number.
+ */
+export interface GraphEdge {
+  to: number;
+  weight: number;
+}
+
+/**
+ * This type represents a graph by using a weighted adjacency list.
+ * The number of items in the list equals the number of vertices in the graph: for each graph vertex there is a corresponding list item.
+ * If the graph has n vertices (with n >= 1), then the vertices will be named 0, 1, 2, ..., n-1.
+ * Vertex 0 corresponds to the list item in position 0, vertex 1 corresponds to the list item in position 1 and so on.
+ * For each vertex in the graph, the list of all the edges originating from it is provided as an array of GraphEdge items.
+ */
+export type WeightedAdjacencyList = GraphEdge[][];
