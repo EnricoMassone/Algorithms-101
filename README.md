@@ -41,6 +41,7 @@ The available algorithms and data structures are divided by topic.
 ### Graphs
 
 - [Breath First Search on a graph](./src/graphs/graphBreathFirstSearch.ts)
+- [Depth First Search on a graph](./src/graphs/graphDepthFirstSearch.ts)
 
 ## Credits
 
