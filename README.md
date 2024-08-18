@@ -42,6 +42,7 @@ The available algorithms and data structures are divided by topic.
 
 - [Breath First Search on a graph](./src/graphs/graphBreathFirstSearch.ts)
 - [Depth First Search on a graph](./src/graphs/graphDepthFirstSearch.ts)
+- [Dijkstra algorithm](./src/graphs/dijkstra.ts)
 
 ## Credits
 
@@ -49,6 +50,7 @@ This project is inspired by the material of the following algorithms courses:
 
 - [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/). This course is available on [FrontendMasters](https://frontendmasters.com/courses/algorithms/). Course material is available [here](https://theprimeagen.github.io/fem-algos/).
 - [Complete Intro to Computer Science](https://frontendmasters.com/courses/computer-science-v2/). This course is available on [FrontendMasters](https://frontendmasters.com/courses/computer-science-v2/). Course material is available [here](https://btholt.github.io/complete-intro-to-computer-science/)
+- [The Last Algorithms Course You'll Want (Part 2)](https://frontendmasters.com/courses/advanced-algorithms/)
 
 ## Environment
 
