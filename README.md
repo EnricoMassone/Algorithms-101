@@ -28,13 +28,16 @@ The available algorithms and data structures are divided by topic.
 
 - [Maze Solver](./src/recursion/mazeSolver.ts)
 
-### Trees
+### Trees Traversal
 
 - [Binary Tree Pre Order Traversal](./src/trees/binaryTreePreorderTraversal.ts)
 - [Binary Tree In Order Traversal](./src/trees/binaryTreeInOrderTraversal.ts)
 - [Binary Tree Post Order Traversal](./src/trees/binaryTreePostOrderTraversal.ts)
 - [Binary Tree Breath First Traversal](./src/trees/binaryTreeBreathFirstTraversal.ts)
-- [Binary Tree Beath First Search](./src/trees/binaryTreeBreathFirstSearch.ts)
+
+### Trees Search
+
+- [Binary Tree Breath First Search](./src/trees/binaryTreeBreathFirstSearch.ts)
 - [Depth First Search on a Binary Search Tree](./src/trees/depthFirstSearchOnBinarySearchTree.ts)
 - [Binary Tree Equality Check](./src/trees/binaryTreeComparison.ts)
 
@@ -43,6 +46,10 @@ The available algorithms and data structures are divided by topic.
 - [Breath First Search on a graph](./src/graphs/graphBreathFirstSearch.ts)
 - [Depth First Search on a graph](./src/graphs/graphDepthFirstSearch.ts)
 - [Dijkstra algorithm](./src/graphs/dijkstra.ts)
+
+### Maps
+
+- [LRU cache](./src/maps/lruCache.ts)
 
 ## Credits
 
